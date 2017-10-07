@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Trajano Reuter">
+        <title>Cleanclic</title>
+
+        <!--CSS imports-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive-style.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/hover-min.css" media="all">
+
+    </head>
+    <body>
+
+        <header>
+            <nav class="desk hidden-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-3">
+                            <a href="index.html"><img src="img/llogo.png" alt="" class="logo img-responsive"></a>
+                        </div>
+                        <div class="col-md-8 col-sm-9">
+                            <ul class="list-unstyled list-inline">
+                                <li class="hvr-underline-from-left"><a href="#">COMO FUNCIONA</a></li>
+                                <li class="hvr-underline-from-left"><a href="#">CALCULADORA</a></li>
+                                <li class="hvr-underline-from-left"><a href="#">FAÇA PARTE</a></li>
+                                <li class="hvr-underline-from-left"><a href="#">CONTATO</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <nav class="mobile visible-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-9">
+                            <img src="img/llogo.png" alt="" class="logo">
+                        </div>
+                        <div class="col-xs-3">
+                            <button type="button" id="m-btn"><img src="img/menu.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div id="menu-mobile">
+            <ul class="list-unstyled text-center">
+                <li class="hvr-underline-from-left"><a href="#">COMO FUNCIONA</a></li>
+                <li class="hvr-underline-from-left"><a href="#">CALCULADORA</a></li>
+                <li class="hvr-underline-from-left"><a href="#">FAÇA PARTE</a></li>
+                <li class="hvr-underline-from-left"><a href="#">CONTATO</a></li>
+            </ul>
+        </div>
+        <div id="menu-mobile-bg"></div>
+
+        <section id="cleanclic">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <h1><b>Clean</b>clic</h1>
+                        <p class="t1">Distribuição inteligente de energia.</p>
+                        <p class="t2">A energia ecológica e econômica a seu alcance.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 hidden-xs">
+                        <img src="img/lfolha.png" alt="" class="lfolha img-responsive">
+                        <img src="img/casa.png" alt="" class="casa img-responsive">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-works">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <h2>Como funciona?</h2>
+                    </div>
+                </div>
+                <div class="row rowball">
+                    <img src="img/linehow.png" alt="" class="linehow img-responsive hidden-xs">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="ball-img text-center item1">
+                            <img src="img/phone.png" alt="">
+                        </div>
+                        <p class="text-center t1">Adesão ao Plano</p>
+                        <p class="t2">Você só precisa tirar uma foto da sua fatura de energia elétrica atual por meio do seu dispositivo e automaticamente será processado pelo nosso banco de dados, e nossa plataforma vai iniciar o melhor plano de adesão para você.</p>
+                        <img src="img/folha.png" alt="" class="folha">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="ball-img text-center item2">
+                            <img src="img/lupa.png" alt="">
+                        </div>
+                        <p class="text-center t1">Formação do Grupo</p>
+                        <p class="t2">Ao aderir ao plano um grupo será constituido que fará uso de uma energia mais barata e de fonte renovável instalada fora da sua residência, sem nenhum investimento inicial, sem transtornos e sem fidelidade com resultados imediatos.</p>
+                        <img src="img/folha.png" alt="" class="folha">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="ball-img text-center item3">
+                            <img src="img/credit.png" alt="">
+                        </div>
+                        <p class="text-center t1">Obtenção de créditos</p>
+                        <p class="t2">É só cadastrar um cartão de crédito válido e acompanhar pela plataforma a geração mensal da usina que será informada à sua concessionária de energia elétrica e que irá debitar o crédito na nova fatura.</p>
+                        <img src="img/folha.png" alt="" class="folha">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="find">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-7 col-xs-12">
+                        <h2>Descubra o plano ideal para você</h2>
+                        <p class="t1">Digite a média mensal de consumo de energia elétrica de sua residência (KW/h):</p>
+                        <div class="form-find">
+                            <form action="" method="POST">
+                                <input type="text" placeholder="0,00">
+                                <div class="item">
+                                    <p>KW/h</p>
+                                    <img src="img/eletr.png" alt="" class="eletr">
+                                    <button type="submit"><img src="img/right-arrow.png" alt=""></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-5 hidden-xs">
+                        <img src="img/cara.png" alt="" class="cara img-responsive">
+                        <div class="calc">
+                            <img src="img/calc.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="plans">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <h2>Planos de Adesão</h2>
+                    </div>
+                </div>
+                <div class="row plans">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="item hvr-float">
+                            <div class="half-circle"></div>
+                            <p class="t1">50,00</p>
+                            <p class="rs">R$</p>
+                            <p class="ms">/mês</p>
+                            <img src="img/folha.png" alt="" class="folha">
+                            <p class="t2">Plano 1</p>
+                            <p class="t3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium esse iste blanditiis ullam numquam cumque dolorem vitae velit dignissimos neque. Neque porro aut autem distinctio blanditiis quidem, possimus delectus ut!</p>
+                            <button type="button" class="contract">CONTRATAR</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="this-plan">
+                            <p>IDEAL PARA VOCÊ!</p>
+                        </div>
+                        <div class="item hvr-float">
+                            <div class="half-circle"></div>
+                            <p class="t1">75,00</p>
+                            <p class="rs">R$</p>
+                            <p class="ms">/mês</p>
+                            <img src="img/folha.png" alt="" class="folha">
+                            <p class="t2">Plano 2</p>
+                            <p class="t3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium esse iste blanditiis ullam numquam cumque dolorem vitae velit dignissimos neque. Neque porro aut autem distinctio blanditiis quidem, possimus delectus ut!</p>
+                            <button type="button" class="contract">CONTRATAR</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="item hvr-float">
+                            <div class="half-circle"></div>
+                            <p class="t1">90,00</p>
+                            <p class="rs">R$</p>
+                            <p class="ms">/mês</p>
+                            <img src="img/folha.png" alt="" class="folha">
+                            <p class="t2">Plano 3</p>
+                            <p class="t3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium esse iste blanditiis ullam numquam cumque dolorem vitae velit dignissimos neque. Neque porro aut autem distinctio blanditiis quidem, possimus delectus ut!</p>
+                            <button type="button" class="contract">CONTRATAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="enter">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <h2>Faça parte da <b>Clean</b>clic e economize!</h2>
+                        <button type="button" class="contract">CONTRATAR</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="contact-box">
+                            <h2>Fale conosco <img src="img/letter.png" alt="" class="letter"></h2>
+                            <div class="detailh"></div>
+                            <p class="t1">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint saepe neque nobis, repudiandae, molestias, impedit non, repellat ab hic ullam modi optio numquam! Inventore itaque exercitationem officiis fugiat, saepe doloribus.
+                            </p>
+                            <form action="" method="POST">
+                                <input type="text">
+                                <input type="text">
+                                <input type="text">
+                                <textarea name="" id="" cols="30" rows="7"></textarea>
+                                <button class="send" type="submit">ENVIAR</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <img src="img/slogo.png" alt="" class="logo">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--Javascript imports-->
+        <script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8" ></script>
+        <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8" ></script>
+        <script src="js/sscroll.js" type="text/javascript" charset="utf-8" ></script>
+        <script src="js/effects.js" type="text/javascript" charset="utf-8" ></script>
+
+
+    </body>
+</html>

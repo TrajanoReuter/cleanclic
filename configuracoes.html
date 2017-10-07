@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Trajano Reuter">
+        <title>Cleanclic</title>
+
+        <!--CSS imports-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive-style.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/hover-min.css" media="all">
+
+    </head>
+    <body>
+
+        <header>
+            <nav class="desk hidden-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-3">
+                            <a href="index.html"><img src="img/llogo.png" alt="" class="logo img-responsive"></a>
+                        </div>
+                        <div class="col-md-8 col-sm-9">
+                            <ul class="list-unstyled list-inline">
+                                <li class="hvr-underline-from-left"><a href="#">COMO FUNCIONA</a></li>
+                                <li class="hvr-underline-from-left"><a href="#">CALCULADORA</a></li>
+                                <li class="hvr-underline-from-left"><a href="#">FAÇA PARTE</a></li>
+                                <li class="hvr-underline-from-left"><a href="#">CONTATO</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <nav class="mobile visible-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-9">
+                            <img src="img/llogo.png" alt="" class="logo">
+                        </div>
+                        <div class="col-xs-3">
+                            <button type="button" id="m-btn"><img src="img/menu.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div id="menu-mobile">
+            <ul class="list-unstyled text-center">
+                <li class="hvr-underline-from-left"><a href="#">COMO FUNCIONA</a></li>
+                <li class="hvr-underline-from-left"><a href="#">CALCULADORA</a></li>
+                <li class="hvr-underline-from-left"><a href="#">FAÇA PARTE</a></li>
+                <li class="hvr-underline-from-left"><a href="#">CONTATO</a></li>
+            </ul>
+        </div>
+        <div id="menu-mobile-bg"></div>
+
+        <div id="my-panel">
+            <div class="container">
+                <h2>Meu Painel</h2>
+                <div class="my-panel-box">
+                    <a href="minha-usina.html">
+                        <div class="minha-usina item">
+                            <p>MINHA USINA <img src="img/m1.png" alt=""></p>
+                        </div>
+                    </a>
+                    <a href="configuracoes.html">
+                        <div class="configuracao item active">
+                            <p>CONFIGURAÇÃO <img src="img/m3.png" alt=""></p>
+                        </div>
+                    </a>
+                    <a href="fale-conosco.html">
+                        <div class="fale-conosco item">
+                            <p>FALE CONOSCO <img src="img/m2.png" alt=""></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <section id="configurations">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-7 col-md-offset-4 col-sm-offset-5 col-xs-12">
+                        <h2>Configurações</h2>
+                        <div class="form-box">
+                            <form action="" method="POST">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <p class="ftitle">Dados Pessoais</p>
+                                        <label for="">NOME COMPLETO</label>
+                                        <input type="text">
+                                        <label for="">E-MAIL</label>
+                                        <input type="text">
+                                        <label for="">SENHA ATUAL</label>
+                                        <input type="password">
+                                        <label for="">NOVA SENHA</label>
+                                        <input type="password">
+                                        <label for="">CONFIRMAR SENHA</label>
+                                        <input type="password">
+                                    </div>
+                                </div>
+                                <div class="row instal">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <p class="ftitle">Instalação</p>
+                                        <label for="">CPF</label>
+                                        <input type="text">
+                                        <label for="">Nº DA INSTALAÇÃO</label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 col-xs-12">
+                                        <label for="">ENDEREÇO</label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <label for="">Nº</label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">COMPLEMENTO</label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">CEP</label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">CIDADE</label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">ESTADO</label>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="row card">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <p class="ftitle">Cartão de Crédito</p>
+                                        <label for="">MEU CARTÃO</label>
+                                        <a href="#"><img class="trash" src="img/trash.png" alt=""></a>
+                                        <input type="text" placeholder="*** *** *** 6356">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <button type="button" class="cancel">CANCELAR</button>
+                                        <button type="submit" class="save">SALVAR</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <img src="img/slogo.png" alt="" class="logo">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--Javascript imports-->
+        <script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8" ></script>
+        <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8" ></script>
+        <script src="js/sscroll.js" type="text/javascript" charset="utf-8" ></script>
+        <script src="js/effects.js" type="text/javascript" charset="utf-8" ></script>
+
+
+    </body>
+</html>

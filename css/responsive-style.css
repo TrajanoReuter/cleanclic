@@ -1,0 +1,248 @@
+@media only screen and (max-width: 1192px){
+    section#cleanclic .container img.casa{
+        top: 250px;
+    }
+    section#find .form-find input{
+        width: 40%;
+    }
+    section#find .form-find .item{
+        width: 60%;
+    }
+    .plans .item{
+        width: 290px;
+    }
+    .plans .item .half-circle{
+        width: 260px;
+        height: 260px;
+        top: -130px;
+    }
+    .plans .this-plan{
+        width: 260px;
+        left: 34px;
+    }
+}
+
+@media only screen and (max-width: 988px){
+    nav.desk ul{
+        text-align: left;
+    }
+    nav.desk img.logo{
+        margin-left: 0;
+    }
+    nav.desk ul>li{
+        margin-left: 0;
+        margin-right: 0;
+        font-size: .8em;
+    }
+    section#contact .contact-box{
+        width: 80%;
+    }
+    section#find .calc{
+        width: 80px;
+        height: 80px;
+        right: 260px;
+    }
+    section#find .calc img{
+        width: 35px;
+        height: 42px;
+        margin-top: 20px;
+    }
+    .plans .item{
+        width: 225px;
+    }
+     .plans .item .half-circle{
+        width: 195px;
+        height: 195px;
+        top: -97px;
+    }
+    .plans .this-plan{
+        width: 195px;
+        left: 32px;
+    }
+    .plans .item p.t1{
+        font-size: 2em;
+    }
+    .plans .item p.rs{
+        font-size: 1em;
+        left: calc(50% - 60px);
+        top: 50px;
+    }
+    .plans .item p.ms{
+        font-size: 1em;
+        top: 85px;
+        left: calc(50% + 35px);
+    }
+    section#configurations .form-box{
+        width: 100%;
+    }
+    .plans .this-plan.atual{
+        line-height: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    h2{
+        font-size: 2em;
+    }
+    section#cleanclic h1{
+        font-size: 3em;
+        text-align: center;
+        margin-top: 60px;
+    }
+    section#cleanclic p.t1, section#cleanclic p.t2{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    section#cleanclic{
+        height: 300px;
+    }
+    section#how-works{
+        padding-top: 60px;
+    }
+    section#how-works .ball-img.item1, section#how-works .ball-img.item2, section#how-works .ball-img.item3{
+        margin-top: 30px;
+    }
+    header{
+        height: 120px;
+    }
+    section#find h2{
+        text-align: center;
+    }
+    section#find p.t1{
+        font-size: 1em;
+        text-align: center;
+        margin-top: 0;
+    }
+    section#find .form-find{
+        position: static;
+    }
+    section#contact .contact-box{
+        width: 100%;
+    }
+    .plans .item{
+        width: 300px;
+        margin-bottom: 100px;
+    }
+    .plans .item .half-circle{
+        width: 270px;
+        height: 270px;
+        top: -135px;
+    }
+    .plans .this-plan{
+        width: 270px;
+        left: calc(50% - 134px);
+    }
+    section#plans h2{
+        margin-bottom: 60px;
+    }
+    section#plans{
+        padding-bottom: 60px;
+    }
+    section#contact .contact-box p.t1{
+        font-size: 1em;
+    }
+    section#find .form-find input{
+        width: 30%;
+        padding-right: 15px;
+    }
+    section#find .form-find .item{
+        width: 70%;
+    }
+    section#find .form-find button{
+        width: 45px;
+    }
+    #my-panel{
+        height: 120px;
+    }
+    #my-panel .my-panel-box{
+        width: 250px;
+        top: 95px;
+        left: calc(100% - 275px);
+    }
+    #my-panel .my-panel-box .item p{
+        font-size: .8em;
+    }
+    #my-panel .my-panel-box .item p>img{
+        width: 15%;
+    }
+    #my-panel .my-panel-box .item.configuracao p>img{
+        top: -10px;
+        right: 20px;
+    }
+    #my-panel .my-panel-box .item.fale-conosco p>img{
+        top: -4px;
+        right: 20px;
+    }
+    section#configurations h2{
+        margin-top: 60px;
+    }
+    section#talk-us .talk-us-box{
+        margin-top: 140px;
+    }
+    section#talk-us .talk-us-box .send-message-head, section#talk-us .talk-us-box .show-historic-head{
+        font-size: .7em;
+    }
+    section#talk-us .talk-us-box .send-message-body p{
+        font-size: 1.2em;
+    }
+    section#my-factory h2{
+        margin-bottom: 60px;
+    }
+    section#my-factory img.placas{
+        margin-top: 30px;
+    }
+    section#thinking h2{
+        margin-bottom: 0;
+        text-align: center;
+    }
+    section#thinking p.tl{
+        margin-top: 20px;
+        margin-bottom: 120px;
+        text-align: center;
+    }
+    section#extract h2, section#real-econo h2, section#extract p.t1, section#real-econo p.t1{
+        text-align: center;
+    }
+    section#real-econo .kw{
+        float: none;
+        margin: 0 auto;
+    }
+    section#real-econo .kw p{
+        margin-top: 60px;
+        line-height: 260px;
+    }
+    section#thinking{
+        padding-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    section#configurations h2, section#talk-us h2, section#my-factory h2{
+        margin-top: 210px;
+    }
+    section#talk-us .talk-us-box{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    section#real-econo .kw .aro, section#real-econo .kw{
+        width: 220px;
+        height: 220px;
+    }
+    section#real-econo .kw p{
+        line-height: 215px;
+    }
+    section#real-econo .kw .lamp{
+        top: 75px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    button.cancel, button.save{
+        width: 100%;
+    }
+    button.save{
+        margin-top: 15px;
+    }
+}
